@@ -23,28 +23,28 @@ Linux sistem yönetimi ve DevOps için hazırlanmış tam kapsamlı Türkçe reh
 |---|-------|------|--------|
 | 7 | [07-Ag-Yonetimi.md](07-Ag-Yonetimi.md) | Ağ (Network) | ip, netstat, ss, firewall, routing, DNS |
 | 8 | [08-Shell-Scripting.md](08-Shell-Scripting.md) | Bash Scripting | Variables, loops, functions, debugging |
-| 9 | [09-Metin-Isleme.md](09-Metin-Isleme.md) | Metin Araçları | sed, awk, grep, cut, tr, vim/nano |
-| 10 | [10-Servis-Yonetimi.md](10-Servis-Yonetimi.md) | Systemd | systemctl, units, targets, timers |
+| 9 | [09-Text-Isleme.md](09-Text-Isleme.md) | Text İşleme | sed, awk, grep, cut, tr, vim/nano |
+| 10 | [10-Servis-Init-Systemd.md](10-Servis-Init-Systemd.md) | Systemd | systemctl, units, targets, timers |
 
 ### 🔒 İleri Seviye (Sistem Yöneticisi)
 
 | # | Dosya | Konu | İçerik |
 |---|-------|------|--------|
-| 11 | [11-Sistem-Guvenligi.md](11-Sistem-Guvenligi.md) | Güvenlik | SSH, Firewall, SELinux, AppArmor, fail2ban |
-| 12 | [12-Log-ve-Troubleshooting.md](12-Log-ve-Troubleshooting.md) | Log & Debug | journalctl, syslog, log analizi, sorun giderme |
-| 13 | [13-Disk-ve-Storage.md](13-Disk-ve-Storage.md) | Disk Yönetimi | fdisk, LVM, RAID, mount, fstab, quotas |
-| 14 | [14-Performans-Monitoring.md](14-Performans-Monitoring.md) | Performance | top, iotop, sar, vmstat, tuning |
-| 15 | [15-Backup-ve-Recovery.md](15-Backup-ve-Recovery.md) | Yedekleme | rsync, tar, dd, backup stratejileri |
+| 11 | [11-Guvenlik.md](11-Guvenlik.md) | Güvenlik | SSH, Firewall, SELinux, AppArmor, fail2ban |
+| 12 | [12-Logging-Monitoring.md](12-Logging-Monitoring.md) | Log & Monitoring | journalctl, syslog, Prometheus, Grafana |
+| 13 | [13-Disk-Depolama.md](13-Disk-Depolama.md) | Disk & Depolama | fdisk, LVM, RAID, mount, fstab, quotas |
+| 14 | [14-Performance-Tuning.md](14-Performance-Tuning.md) | Performance Tuning | CPU, memory, disk, network optimization |
+| 15 | [15-Backup-ve-Restore.md](15-Backup-ve-Restore.md) | Backup & Restore | rsync, tar, dd, disaster recovery |
 
 ### 🚀 DevOps Bölümleri
 
 | # | Dosya | Konu | İçerik |
 |---|-------|------|--------|
-| 16 | [16-Web-Sunucu-Yonetimi.md](16-Web-Sunucu-Yonetimi.md) | Web Servers | Apache, Nginx, SSL, reverse proxy |
-| 17 | [17-Database-Yonetimi.md](17-Database-Yonetimi.md) | Veritabanı | MySQL, PostgreSQL, Redis, yedekleme |
-| 18 | [18-Automation-Ansible.md](18-Automation-Ansible.md) | Otomasyon | Ansible basics, playbooks, roles |
-| 19 | [19-Container-ve-Virtualization.md](19-Container-ve-Virtualization.md) | Containers | Docker, Podman, KVM, QEMU |
-| 20 | [20-CI-CD-ve-Git.md](20-CI-CD-ve-Git.md) | CI/CD & Git | Git workflow, Jenkins, pipelines |
+| 16 | [16-Web-Serverleri.md](16-Web-Serverleri.md) | Web Servers | Nginx, Apache, SSL, reverse proxy, load balancing |
+| 17 | [17-Database-Yonetimi.md](17-Database-Yonetimi.md) | Database | MySQL, PostgreSQL, Redis, backup, replication |
+| 18 | [18-Ansible.md](18-Ansible.md) | Ansible | Configuration management, playbooks, roles, IaC |
+| 19 | [19-Docker-Konteyner.md](19-Docker-Konteyner.md) | Docker & Containers | Docker, images, Compose, orchestration |
+| 20 | [20-CI-CD-Pipelines.md](20-CI-CD-Pipelines.md) | CI/CD Pipelines | Jenkins, GitLab CI, GitHub Actions |
 
 ---
 
@@ -154,13 +154,13 @@ ss -tulpn                  # Açık portlar
 ## 🎯 Rehber İçeriği
 
 **Bu rehberde:**
-- 📚 **20 detaylı bölüm** - Temellerden ileri seviyeye
-- 📝 **6000+ satır** kod ve açıklama
+- 📚 **20 detaylı bölüm** - Temellerden ileri seviyeye (60,000+ satır)
+- 📝 **17,710+ satır** komut, kod ve detaylı açıklama
 - 🎓 **200+ pratik alıştırma** - Her bölümde hands-on
 - 💻 **Gerçek dünya senaryoları** - Production örnekleri
 - 🔒 **Güvenlik best practices** - Enterprise standartları
-- 🚀 **DevOps araçları** - Modern teknolojiler
-- 📊 **Sistem yönetimi** - Monitoring, backup, troubleshooting
+- 🚀 **DevOps araçları** - Ansible, Docker, CI/CD, Kubernetes
+- 📊 **Sistem yönetimi** - Monitoring (Prometheus, Grafana), backup, troubleshooting
 - ☁️ **Cloud-ready** - AWS, Azure örnekleri
 
 **Hedef Kitle:**
